@@ -5,7 +5,7 @@ title: Why Edward Snowden is wrong and SMS protocol is broken
 <div class="message">
   See original post on <a href="https://medium.com/@uzakov/why-edward-snowden-is-wrong-and-sms-protocol-is-broken-c80b5bc450a6">Medium</a>
 </div>
-It all started a while back when I was watching an amazing talk from Defcon https://www.youtube.com/watch?v=DU8hg4FTm0g And I decided to read more into SMS and telecom technology.
+It all started a while back when I was watching an amazing talk from Defcon <a href="https://www.youtube.com/watch?v=DU8hg4FTm0g">https://www.youtube.com/watch?v=DU8hg4FTm0g</a> and I decided to read more into SMS and telecom technology.
 
 Research into this topic showed a couple of companies who offered internet-to-SMS message delivery. I went with (name not given due to privacy) since they provide a nice API and enough documentation. After doing a proof-of-concept SMS spoof on myself and a couple of other phone numbers on different networks, it worked flawlessly! The owners of the other phone numbers were told what was happening, and they gave their permission prior to testing. Even using so called safe messengers, such as Signal, which was recommended by Snowden, doesn’t save you, since the receiving phone has no way of validating the SMS text message.
 
@@ -17,6 +17,7 @@ How it works
 
 The SMS standard defines what information is sent in a text message, what bits of binary code make up each letter, and how this data is organised so that sending and receiving devices can communicate with each other. The actual data format for the message includes things like the length of the message, a time stamp, the destination phone number, and the actual message of course.
 After the sender and receiver information comes a protocol identifier and a tag to identify the data encoding scheme used in the message, which will allowing different receivers to know how to decode the actual message. There’s also a time stamp and information on the length of the users message before the user’s actual message is encoded.
+
 As for the message itself, as already mentioned it can contain up to 160 characters, where each character is defined by the 7-bits GSM alphabet. A 7-bit alphabet results in 128 (2⁷) available letters, numbers, and pieces of punctuation which can be used to create a SMS message. For example, 48656C6C6F is the GSM alphabet equivalent of the word Hello.
 Above is a short explanation of sms message structure. One can edit variable and in the most networks operator wouldn't check whether the sender and sender number are the same. After bad guys change the FROM header then can send this SMS to the victim. Network operators keep logs but perform no server side verification.
 
