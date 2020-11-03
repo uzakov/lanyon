@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Efficiency everywhere
+title: Efficiency in personal finance
 ---
 
 Working in the software engineering field one of the concepts we often speak about is efficiency. It would be no surprise to many that we can apply efficiency to our personal finance as well.
