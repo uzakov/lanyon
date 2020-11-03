@@ -9,8 +9,8 @@ Working in the software engineering field one of the concepts we often speak abo
 
 This blogpost shares what you can do in terms of financial optimisation, money and finances in general. I am assuming a certain level of income, as it is impossible to optimise spendings if you can't afford to.
 
-*Note: A big part of this article was written pre-Covid, my hope that this article can help people who can optimise their spendings be more effective and by no means written to hurt those who unfortunately can’t at the moment.*
-Opinions expressed here are mine alone, not those of any bank, credit card issuer, employer, and have not been reviewed, approved or otherwise endorsed by any of these entities. Please do your own research and take this on your own risk. Nothing here should be construed as financial advice, and it is your own responsibility to ensure that anything mentioned is right for your circumstances.
+*Note: A big part of this article was written pre-Covid, my hope that this article can help people who can optimise their spendings be more effective and by no means written to hurt those who unfortunately can’t at the moment.
+Opinions expressed here are mine alone, not those of any bank, credit card issuer, employer, and have not been reviewed, approved or otherwise endorsed by any of these entities. Please do your own research and take this on your own risk. Nothing here should be construed as financial advice, and it is your own responsibility to ensure that anything mentioned is right for your circumstances.*
 
 ### Key optimisation tips:
 - Get a credit card that offers a cashback, try to use this card for all your spendings, you get around 1% cashback as well as sign-up bonus in many cases (some offer £100-250 worth of sign up bonus in points). One of the risks with credit cards is that the interest rate on some is very high, some are 75%! Do make sure to read Terms and Conditions

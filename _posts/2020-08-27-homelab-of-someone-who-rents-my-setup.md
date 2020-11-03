@@ -42,7 +42,7 @@ List of VMs/services I run:
 Used for bug bounties mainly as well as testing, example [https://twitter.com/alikhan_uzakov/status/1294026520965582851](https://twitter.com/alikhan_uzakov/status/1294026520965582851)
 #### FreeNAS
 NAS for file storage and laptop backup.
-### Plex media server
+#### Plex media server
 Local media server, I like rewatching some of the TV shows I purchased a while ago.
 #### Zabbix
 VM monitoring and alerting, something I am planning to improve in the near future
@@ -69,7 +69,8 @@ For my server I went with a used PC, the specs are:
 * 6th gen i7
 * 48GB DDR RAM
 * 1TB HDD and 256GB SSD
-It hosts my VMWARE ESXi and corresponding VMs
+
+This PC hosts my VMWARE ESXi and corresponding VMs
 ![Homelab sticker]({{ site.url }}/public/images/2020/sticker-homelab.png)
 
 ### Networking
@@ -95,6 +96,7 @@ Here are the firewall policies I have set:
 4. Homelab VMs can talk to each other
 
 Some points to keep in mind: you can do micro segmentation, above example is not perfect, far from it, see what suits you. Additionally you can do MAC filtering but that does not give you a great deal (if any) of security as anyone can easily change their MAC address. All VMs could take good use of things mentioned in [https://medium.com/@uzakov/pretty-good-setup-pgs-4d3b58b4341a](https://medium.com/@uzakov/pretty-good-setup-pgs-4d3b58b4341a)
+
 
 If you are interested to know more, check the links below.
 
