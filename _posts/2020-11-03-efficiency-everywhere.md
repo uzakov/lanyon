@@ -7,10 +7,9 @@ Working in the software engineering field one of the concepts we often speak abo
 ![Signal]({{ site.url }}/public/images/2020/1280px-Bulle_und_Bar_Frankfurt.jpg)
 <a href="https://en.wikipedia.org/wiki/Market_trend#/media/File:Bulle_und_B%C3%A4r_Frankfurt.jpg">Credits</a> by Eva K, CC BY-SA 2.5
 
-*Note: A big part of this article was written pre-Covid, my hope that this article can help people who can optimise their spendings be more effective and by no means written to hurt those who unfortunately can’t at the moment.*
-
 This blogpost shares what you can do in terms of financial optimisation, money and finances in general. I am assuming a certain level of income, as it is impossible to optimise spendings if you can't afford to.
 
+*Note: A big part of this article was written pre-Covid, my hope that this article can help people who can optimise their spendings be more effective and by no means written to hurt those who unfortunately can’t at the moment.*
 Opinions expressed here are mine alone, not those of any bank, credit card issuer, employer, and have not been reviewed, approved or otherwise endorsed by any of these entities. Please do your own research and take this on your own risk. Nothing here should be construed as financial advice, and it is your own responsibility to ensure that anything mentioned is right for your circumstances.
 
 ### Key optimisation tips:

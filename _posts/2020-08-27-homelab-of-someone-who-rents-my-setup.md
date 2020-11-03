@@ -70,3 +70,35 @@ For my server I went with a used PC, the specs are:
 * 48GB DDR RAM
 * 1TB HDD and 256GB SSD
 It hosts my VMWARE ESXi and corresponding VMs
+![Homelab sticker]({{ site.url }}/public/images/2020/sticker-homelab.png)
+
+### Networking
+
+One of the key requirements for my homelab was simplicity and best value for time, following the Pareto principle(80/20). My local network is separated and segregated into various parts, talked about below.
+
+One of the things I did was deciding not to allow remote access for the majority of things I run, to save time I would have to spend maintaining adequate security. They can still be accessed locally and can reach the internet.
+
+#### Guest network
+This network is used by people visiting the house.
+#### Homelab network
+This network containing homelab: ESXi host and VMs
+#### Trusted devices network
+This network is for devices that are more closely maintained, more trusted
+#### IoT/Other
+This network is for Internet of Things devices or ones that are hard to patch, examples are home smart plugs, sensors.
+
+Here are the firewall policies I have set:
+
+1. No outside to inside traffic
+2. “IoT/Other”, “Guest networks” can’t reach other networks and can only talk with the internet
+3. “Trusted” can reach “Homelab”
+4. Homelab VMs can talk to each other
+
+Some points to keep in mind: you can do micro segmentation, above example is not perfect, far from it, see what suits you. Additionally you can do MAC filtering but that does not give you a great deal (if any) of security as anyone can easily change their MAC address. All VMs could take good use of things mentioned in [https://medium.com/@uzakov/pretty-good-setup-pgs-4d3b58b4341a](https://medium.com/@uzakov/pretty-good-setup-pgs-4d3b58b4341a)
+
+If you are interested to know more, check the links below.
+
+[https://robpickering.com/ubiquiti-configure-micro-segmentation-for-iot-devices/](https://robpickering.com/ubiquiti-configure-micro-segmentation-for-iot-devices/)
+[https://nguvu.org/pfsense/pfsense-baseline-setup/](https://nguvu.org/pfsense/pfsense-baseline-setup/)
+[https://joshspicer.com/homelab](https://joshspicer.com/homelab)
+[https://www.homelabrat.com/](https://www.homelabrat.com/)
