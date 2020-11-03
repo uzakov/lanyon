@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hi! I'm Alikhan Uzakov
+title: About
 ---
 
 <p class="message">

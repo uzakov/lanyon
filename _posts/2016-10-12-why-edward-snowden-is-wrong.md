@@ -20,4 +20,4 @@ TL;DR
 Don’t use SMS text messages for communication, call the sender if unsure. SMS protocol is broken.
 Update 1:
 Some people requested to see proof and images. Here they are:
-![Signal]({{ site.url }}/public/images/2016/signal.png)
+![Signal]({{ site.url }}/public/images/2016/signal.jpeg)
