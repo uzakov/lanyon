@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hi! I'm Alikhan Uzakov. I’m currently an Application Security Engineer at Zoopla, where I help design, build and secure the future of prop tech. Previously I worked at Clearswift, PwC.
+  Hi! I'm Alikhan Uzakov. I’m an Application Security Engineer at Zoopla, where I help design, build and secure the future of prop tech. Previously I worked at Clearswift, PwC.
 </p>
 
 ![Me]({{ site.url }}/public/images/2020/me.jpg)
