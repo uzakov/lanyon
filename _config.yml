@@ -21,7 +21,9 @@ collections:
   varyingtopics:
     output: true
     permalink: /varyingtopics/:path/
-
+  bookshelfRecommended:
+    output: true
+    permalink: /bookshelfRecommended/:path/
 
 # Custom vars
 version:             1.1.0
