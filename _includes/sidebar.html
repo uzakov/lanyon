@@ -10,6 +10,7 @@
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
+    <a class="sidebar-nav-item" href="{{ site.url }}/public/bookshelf/bookshelf">Bookshelf</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -25,7 +26,6 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.url }}/public/bookshelf/bookshelf.md">Bookshelf</a>
     <span class="sidebar-nav-item">Currently in Reading</span>
   </nav>
 
