@@ -1,7 +1,7 @@
 # Setup
 title:               Uzakov
 tagline:             '@alikhan_uzakov'
-description:         'Hi, I'm Alikhan. I write about AppSec, finance, my interest in photography and technology.'
+description:         'Hi, I“'”m Alikhan. I write about AppSec, finance, my interest in photography and technology.'
 url:                 https://uzakov.io
 baseurl:             ''
 paginate:            5
