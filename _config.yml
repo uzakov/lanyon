@@ -1,7 +1,7 @@
 # Setup
 title:               Alikhan Uzakov
 tagline:             '@alikhan_uzakov'
-description:         'Hi, I am Alikhan. I write about AppSec, finance, my interest in photography and technology.'
+description:         'Hi, I am Alikhan. I write mainly about AppSec, finance and tech.'
 url:                 https://uzakov.io
 baseurl:             ''
 paginate:            5
@@ -11,7 +11,7 @@ permalink:           pretty
 author:
   name:              Alikhan Uzakov
   url:               https://twitter.com/alikhan_uzakov
-  email:             alikhanatuzakovdotio
+  email:             alikhanatthisdomain
 
 # Gems
 plugins:

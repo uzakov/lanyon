@@ -11,6 +11,7 @@ title: About
 I am a strong believer of "human" AppSec, where helping and influencing developers' mindset by providing resources, guidance, interesting and hands-on training goes a long way. Great products are built through cooperation, openness and bringing modern practises to the table. Too often security people try to approach security only from the policy, bureaucratic side or even force it, without understanding the underlying reasons why things were done a particular way. AppSec should not be the roadblocker but rather your teammate, or an internal consultant.
 
 If you’d like to get in touch, I’m alikhan at this domain.
+
 You can find an RSS feed of recent posts <a href="https://uzakov.io/atom.xml">here</a>.
 
 
