@@ -2,7 +2,9 @@
 layout: post
 title: Homelab of someone who rents | My setup
 ---
-
+<div class="message">
+  See original post on <a href="https://medium.com/@uzakov/homelab-of-someone-who-rents-my-setup-a4f8b119aa1f">Medium</a>
+</div>
 If you browse r/homelab you would see a myriad of amazing homelabs, which is great unless you rent, can’t add proper cabling to the house/flat, can’t spend much money or do not have enough space for all equipment. My setup was primarily created due to my interest in different tech, improving security as well as a result of the requirements mentioned above.
 
 ### What is a homelab?
@@ -100,7 +102,7 @@ Some points to keep in mind: you can do micro segmentation, above example is not
 
 If you are interested to know more, check the links below.
 
-[https://robpickering.com/ubiquiti-configure-micro-segmentation-for-iot-devices/](https://robpickering.com/ubiquiti-configure-micro-segmentation-for-iot-devices/)
-[https://nguvu.org/pfsense/pfsense-baseline-setup/](https://nguvu.org/pfsense/pfsense-baseline-setup/)
-[https://joshspicer.com/homelab](https://joshspicer.com/homelab)
-[https://www.homelabrat.com/](https://www.homelabrat.com/)
+1. [https://robpickering.com/ubiquiti-configure-micro-segmentation-for-iot-devices/](https://robpickering.com/ubiquiti-configure-micro-segmentation-for-iot-devices/)
+2. [https://nguvu.org/pfsense/pfsense-baseline-setup/](https://nguvu.org/pfsense/pfsense-baseline-setup/)
+3. [https://joshspicer.com/homelab](https://joshspicer.com/homelab)
+4. [https://www.homelabrat.com/](https://www.homelabrat.com/)
