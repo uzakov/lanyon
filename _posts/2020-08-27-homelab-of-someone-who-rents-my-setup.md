@@ -29,23 +29,44 @@ There are some disadvantages to having a homelab, to name a few:
 
 ![Network diagram]({{ site.url }}/public/images/2020/homelab.png)
 ### Services
-Kali VM — https://www.kali.org/
-FreeNAS — https://www.freenas.org/
-Plex media server — https://www.plex.tv/en-gb/media-server-downloads/
-Zabbix — https://www.zabbix.com/
-GitLab with two GitLab runners — https://about.gitlab.com/
-OSSEC (in progress) — https://www.ossec.net/
-Various VMs that are not in use 24/7
-Kali
-Used for bug bounties mainly as well as testing, example
-https://twitter.com/alikhan_uzakov/status/1294026520965582851
-FreeNAS
+List of VMs/services I run:
+- Kali VM — [https://www.kali.org/](https://www.kali.org/)
+- FreeNAS — [https://www.freenas.org/](https://www.freenas.org/)
+- Plex media server — [https://www.plex.tv/en-gb/media-server-downloads/](https://www.plex.tv/en-gb/media-server-downloads/)
+- Zabbix — [https://www.zabbix.com/](https://www.zabbix.com/)
+- GitLab with two GitLab runners — [https://about.gitlab.com/](https://about.gitlab.com/)
+- OSSEC (in progress) — [https://www.ossec.net/](https://www.ossec.net/)
+- Various VMs that are not in use 24/7
+
+#### Kali
+Used for bug bounties mainly as well as testing, example [https://twitter.com/alikhan_uzakov/status/1294026520965582851](https://twitter.com/alikhan_uzakov/status/1294026520965582851)
+#### FreeNAS
 NAS for file storage and laptop backup.
-Plex media server
+### Plex media server
 Local media server, I like rewatching some of the TV shows I purchased a while ago.
-Zabbix
+#### Zabbix
 VM monitoring and alerting, something I am planning to improve in the near future
-OSSEC
+#### OSSEC
 OSSEC is HIDS — Host based detection system, work in progress.
-Hardware
-For the network part I went with Ubiquiti, chose UDM (Unifi Dream Machine) device https://store.ui.com/collections/routing-switching/products/unifi-dream-machine. It plays a role of my router, switch and security gateway. While there are a number of disadvantages in “all-in-one devices” this is the optimal choice for me as it’s likely I might be moving houses and my current place doesn’t have enough space for all the required hardware.
+
+### Hardware
+For the network part I went with Ubiquiti, chose UDM (Unifi Dream Machine) device [https://store.ui.com/collections/routing-switching/products/unifi-dream-machine](https://store.ui.com/collections/routing-switching/products/unifi-dream-machine). It plays a role of my router, switch and security gateway. While there are a number of disadvantages in “all-in-one devices” this is the optimal choice for me as it’s likely I might be moving houses and my current place doesn’t have enough space for all the required hardware.
+
+![Ubiquiti UDM]({{ site.url }}/public/images/2020/20200825_210824.jpg)
+*My UDM, I call it “Smol Battle Station” — its small but as good and strong as a battlecruiser from StarCraft. I really love the design, it’s very minimal, clean and actually reminds me of EVE from WALL-E cartoon.*
+
+Alternatively, I could have gone with custom flashing a router with dd-wrt, open-wrt or tomato, buying a dedicated switch. There are a number of reasons I did not do that, to name a few:
+
+1. There is a chance that router will be bricked during flashing
+2. I currently have limited free time, dd-wrt always takes time (read forums for example, some builds were unstable etc)
+3. UDM offers everything I need at the moment
+
+If you want to see a good guide how to do network segregation and segmentation with a router that is flashed with dd-wrt check out the guide from Bishop Fox [https://labs.bishopfox.com/industry-blog/an-updated-guide-to-do-it-yourself-network-segmentation](https://labs.bishopfox.com/industry-blog/an-updated-guide-to-do-it-yourself-network-segmentation)
+
+### Server
+
+For my server I went with a used PC, the specs are:
+* 6th gen i7
+* 48GB DDR RAM
+* 1TB HDD and 256GB SSD
+It hosts my VMWARE ESXi and corresponding VMs
