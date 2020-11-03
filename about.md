@@ -15,8 +15,15 @@ I am a strong believer of "human" AppSec, where helping and influencing develope
 I started this website while studying at university and it has been evolving since. This site is built using Jekyll, Atom and hosted on GitHub Pages.
 Design is based on [Lanyon](http://lanyon.getpoole.com)
 
-# Facts about me
+### Facts about me
 I have a background in Computer Science and Mathematics and especially enjoy projects that use graph theory.
 My favourite TV show is Scrubs. My favourite book is Hard to be a God by Arkady Strugatsky and Boris Strugatsky.
 
 ### What do I read?
+This is the list of some of the websites that I read on a regular basis. Not everything written on them I necessarily agree with, so don’t take this as an endorsement of these websites.
+
+[https://www.damninteresting.com/](https://www.damninteresting.com/)
+[https://news.ycombinator.com/](https://news.ycombinator.com/)
+[http://www.paulgraham.com/articles.html](http://www.paulgraham.com/articles.html)
+[https://hackerone.com/hacktivity](https://hackerone.com/hacktivity)
+[https://habr.com/ru/](https://habr.com/ru/)
