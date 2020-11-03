@@ -1,5 +1,5 @@
 # Setup
-title:               AUzakov
+title:               Uzakov
 tagline:             '@alikhan_uzakov'
 description:         'Hi, I'm Alikhan. I write about AppSec, finance, my interest in photography and technology.'
 url:                 https://uzakov.io
@@ -11,7 +11,7 @@ permalink:           pretty
 author:
   name:              Alikhan Uzakov
   url:               https://twitter.com/alikhan_uzakov
-  email:             alikhanatuzakov.io
+  email:             alikhanatuzakovdotio
 
 # Gems
 plugins:
