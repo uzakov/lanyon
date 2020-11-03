@@ -4,7 +4,6 @@ title: Short stories
 ---
 
 ### Unusual neighbours.
-
 I was always fascinated by my granddad’s gift as a storyteller. Very often when guests were sitting relaxed and digesting after the meal, he hemmed, clearing his throat, and everybody knew that he was preparing to tell another story from his life.
 He once told me about a tree, not just a tree, but The Tree, that grew at a short distance from the crossroads of the streets Furmanov and Shevchenko in Almaty, where he was born and spent his childhood. Granddad remembers it since that time, they were growing together, and it was and still is a very unusual tree. Actually, there are two trees in one trunk, growing and living in symbiosis, a fur tree, and maple, that splits into two stems at a height of maybe 8 meters.
 I decided to look at it. When I came there, I couldn’t find it at first, but then, gazing into the tree crown, I saw an amazing picture of two trees, swaying in the wind and watching surroundings silently.

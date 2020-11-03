@@ -5,7 +5,6 @@ title: Why Edward Snowden is wrong and SMS protocol is broken
 <div class="message">
   See original post on <a href="https://medium.com/@uzakov/why-edward-snowden-is-wrong-and-sms-protocol-is-broken-c80b5bc450a6">Medium</a>
 </div>
-
 It all started a while back when I was watching an amazing talk from Defcon https://www.youtube.com/watch?v=DU8hg4FTm0g And I decided to read more into SMS and telecom technology.
 
 Research into this topic showed a couple of companies who offered internet-to-SMS message delivery. I went with (name not given due to privacy) since they provide a nice API and enough documentation. After doing a proof-of-concept SMS spoof on myself and a couple of other phone numbers on different networks, it worked flawlessly! The owners of the other phone numbers were told what was happening, and they gave their permission prior to testing. Even using so called safe messengers, such as Signal, which was recommended by Snowden, doesn’t save you, since the receiving phone has no way of validating the SMS text message.
