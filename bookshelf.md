@@ -14,3 +14,9 @@ I've written a summary of things that summarise the key themes in these book. Th
 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
 {% endfor %}
+
+<h3>The Intelligent Investor</h3>
+<h3>Hard to be a God</h3>
+<h3>Сборник задач для поступающих в вузы</h3>
+<h3>Sapiens: A Brief History of Humankind</h3>
+<h3>Robinson Crusoe</h3>

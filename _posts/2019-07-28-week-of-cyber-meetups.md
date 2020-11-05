@@ -31,3 +31,39 @@ There were two talks:
 The most interesting talk from the engineering perspective, where we had a chance to hear from Mark Goodwin, Mozilla engineer who is working on the Firefox web browser.
 
 Mark covered the basics of browser security, what it does and why it’s important. He also covered the use of Rust at Mozilla, why it’s a great language from a security point of view(memory and thread safety) and plans to increase the amount of Rust code in Firefox. [https://wiki.mozilla.org/Oxidation](https://wiki.mozilla.org/Oxidation)
+![Firefox talk]({{ site.url }}/public/images/2019/20190717_203219.jpg)
+![Talk 3]({{ site.url }}/public/images/2019/20190717_204631.jpg)
+
+### OWASP London Chapter Meeting at Revolut
+
+[https://www.meetup.com/OWASP-London/events/262880260/](https://www.meetup.com/OWASP-London/events/262880260/)
+![OWASP Talks]({{ site.url }}/public/images/2019/20190718_200210.jpg)
+![OWASP Talks]({{ site.url }}/public/images/2019/20190718_200723.jpg)
+There were three talks:
+1. Scaling Security - Move Fast and Make Things
+2. Hack In, Cash Out: Hacking and Securing Payment Technologies
+3. Advanced Bots and Security Evasion Techniques
+
+#### Scaling Security - Move Fast and Make Things
+
+![Scaling security]({{ site.url }}/public/images/2019/20190718_190238.jpg)
+
+Talk by Revolut CISO, where he talked about the use of Google Cloud Platform at Revolut, a bit about how they do AppSec, automation around security they do at Revolut, microservices, context-aware access [https://cloud.google.com/context-aware-access/](https://cloud.google.com/context-aware-access/), how important it is to move and react fast. He also shared the bank's plans for the near future.
+
+#### Hack In, Cash Out: Hacking and Securing Payment Technologies
+![Hack In, Cash Out]({{ site.url }}/public/images/2019/20190718_195834.jpg)
+
+Talk by a researcher from Positive Technologies, who talked about attacks on payment platforms, what cybercriminals do, what his company has found. To sum up, there are a lot of problems with payment platforms. One of the methods criminals used to use was a race condition, where there would be a transaction, from account A to B, transferring a very small amount of money, say £0.000005 and then instantly criminals would send cancel transaction call. Due to the processing error, account B would still have £0.000005
+
+#### Advanced Bots and Security Evasion Techniques
+
+This talk was presented by a Senior Researcher at F5 networks, covering advanced techniques used by bot creators and what F5 does to detect them.
+As always there was free pizza and beer. The office was very cool, in a good location and hip inside!
+There was a vending machine that gave out Revolut debit cards. You just need to register it through the app.
+
+PS Join OWASP [https://www.owasp.org/index.php/Membership](https://www.owasp.org/index.php/Membership)
+
+![OWASP Talks]({{ site.url }}/public/images/2019/20190718_201215.jpg)
+![OWASP Talks]({{ site.url }}/public/images/2019/20190718_210057.jpg)
+
+#### NEVER SETTLE
