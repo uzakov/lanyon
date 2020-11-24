@@ -7,7 +7,7 @@ You can find below my bookshelf. It's divided into two sections: the books that 
 
 I've written a summary of things that summarise the key themes in these book. They are useful to help me remember the main points of each book.
 
-### Recommended
+## Recommended
 
 {% for post in site.bookshelfRecommended %}
 
