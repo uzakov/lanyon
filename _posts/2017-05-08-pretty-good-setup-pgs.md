@@ -25,11 +25,11 @@ The reason why I called it Pretty Good Setup is that the security of this setup 
 10. Encrypt important files
 
 #### Securing the BIOS
-You can’t have a secure setup*[1] without a secure core/part of it. The first thing when you make a new system should be securing your BIOS (basic input/output system):
+You can’t have a secure setup [1] without a secure core/part of it. The first thing when you make a new system should be securing your BIOS (basic input/output system):
 
 ![Example BIOS]({{ site.url }}/public/images/2017/bios-example.jpeg)
 
-First you must set an admin password in your BIOS. As shown above it will stop an attacker*[2] from modifying settings, restrict booting from external devices, which protects against modifying the root password. The next step must be to disable booting from external devices to stop the attack mentioned above.
+First you must set an admin password in your BIOS. As shown above it will stop an attacker [2] from modifying settings, restrict booting from external devices, which protects against modifying the root password. The next step must be to disable booting from external devices to stop the attack mentioned above.
 
 ![Example BIOS]({{ site.url }}/public/images/2017/bios-password.png) Now when your PC turns on you might see something like this.
 
@@ -93,6 +93,7 @@ Set the setting as follows by clicking on the top part of the block to make a bl
 
 ![uMatrix 2]({{ site.url }}/public/images/2017/umatrix_2.png)
 Explanation of image 2 : Since I trust Medium I allow it to read cookies, allow it to load and run scripts, XHR. Another explanation on how to configure uMatrix: <a href="https://github.com/gorhill/uMatrix/wiki/Very-bare-walkthrough-for-first-time-users">https://github.com/gorhill/uMatrix/wiki/Very-bare-walkthrough-for-first-time-users</a>
+
 2. In your browser set the setting to the following (example shown uses Google Chrome browser):
 ![Chrome setting 1]({{ site.url }}/public/images/2017/chrome_settings.png)
 By blocking sites from setting cookies you improve your privacy
@@ -104,25 +105,75 @@ What is happening above: We blocked websites from setting any data, which increa
 This what you will see when you click manage exceptions for cookies.
 I allowed websites you can see on Image 3 to set cookies and also made exception on uMatrix.
 
-###### Cover your camera
+##### Cover your camera
 
 Cover your camera with something e.g. tape. Certain viruses can get access to your machines camera and see what you are doing.
 
-![Camera]({{ site.url }}/public/images/2017/camera_fb.png)
+![Camera]({{ site.url }}/public/images/2017/camera_fb.jpeg)
 
 Picture taken from the Guardian article: <a href="https://www.theguardian.com/technology/2016/jun/22/mark-zuckerberg-tape-webcam-microphone-facebook">https://www.theguardian.com/technology/2016/jun/22/mark-zuckerberg-tape-webcam-microphone-facebook</a>
+
 Even though it’s not likely that you will get a virus on your machine, which will be able to access the camera, its better be safe than sorry.
 
-###### Install a VPN
+##### Install a VPN
 
 Install a VPN <a href="https://en.wikipedia.org/wiki/Virtual_private_network">(Virtual private network)</a> In short it secures your traffic from your Internet Service Provider(ISP) by not letting them know what websites you visit and what you do on the Web, bad person on the same network as you in a cafe, on any open access wifi hotspot etc. I will not go into the details how to install one but rather suggest to choose VPN which doesn’t log, though its difficult to check if they do and don’t. One of the main ways to check if your provider logs is to have a look if your VPN provider has received any court orders to release data and what have they provided. If your VPN provider didn’t give any data it’s very likely that their no log policy is real. I personally would support <a href="https://www.privateinternetaccess.com/">Private Internet Access(PIA)</a>. Only get a paid VPN as most free VPN services are probably selling your data, so they’re not worth using.
 ![VPN]({{ site.url }}/public/images/2017/vpn.png)
 
 How VPN works. Credits: <a href="http://blog.flashkirby.com/">http://blog.flashkirby.com/</a>
-Below you can find reviews of VPN providers. Note that, I am not paid nor connected to any of those providers nor tested them all.
+Below you can find reviews of VPN providers.
+
+Note that, I am not paid nor connected to any of those providers nor tested them all.
 <a href="https://torrentfreak.com/best-vpn-anonymous-no-logging/">https://torrentfreak.com/best-vpn-anonymous-no-logging/</a>
 
-###### Use a password manager
+##### Use a password manager
 
 A password manager is a software application or hardware that helps a user store and organize passwords. Instead of using a simple password like qwerty123 you have a complex unique password for different services. I suggest to use <a href="https://www.keepassx.org/">KeePassX </a> for a number of reasons some of which are: your password database is stored locally, meaning that there is no threat from online service leaking your passwords, saves many different information, whole database is encrypted with the AES (aka Rijndael) encryption algorithm using a 256 bit key.
 ![Camera]({{ site.url }}/public/images/2017/keepassx.png)
+KeePassX logo
+![KeePassX]({{ site.url }}/public/images/2017/keepassx_1.png)
+Creating a new database
+![KeePassX]({{ site.url }}/public/images/2017/keepassx_2.png)
+KeePassX allows to generate unique passwords, containing letters, numbers and special characters.
+
+If KeePassX is not installed by default you can install it by running the following command:
+{% highlight js %}
+sudo apt-get install keepassx
+{% endhighlight %}
+
+What it protects from: dictionary attacks, you don’t reuse the same password meaning if a service gets compromised and your password gets leaked an attacker can’t use it to access a different service.
+
+##### Use a Virtual Machine (VM)
+
+In computing, a <a href="https://en.wikipedia.org/wiki/Virtual_machine">virtual machine (VM)</a> is an emulation of a computer system. What it means is that you can run another OS on your machine without the need to purchase the additional hardware. In terms of security it provides you an option to run programs, open files you don’t trust and which can contain malicious files without infecting your machine. [6]
+
+![VirtualBox]({{ site.url }}/public/images/2017/vm_1.png)
+This is how VirtualBox looks like
+
+You can use VM when you receive emails with attachments, which you were not expecting, ie emails comes from known email but unusual attachment. This attachment could possibly be infected. If you open this attachment in the VM, even if VM OS gets infected, your base OS and all files will be fine. There are many different VM software solutions and you are free to choose the one that you find the best. I personally use VirtualBox.
+You can install VirtualBox by running this command:
+
+{% highlight js %}
+sudo apt-get install virtualbox-qt
+{% endhighlight %}
+
+##### Encrypt important files
+
+It would be a good practice to encrypt your important personal files, which you don’t use on everyday basis, so that even if someone knows your password and steals your machine the attacker would not be able to access those files. To explain: when you use full disk encryption all your files are encrypted and an attacked wouldn’t be able to read files without correct password. But if an attacked finds out your password he/she would be able to access all files. Now say you have some important files you don’t want anyone to access, if you encrypt them and don’t use on everyday basis an attacker who finds your password would not be able to access those files since they require another password. I’d personally recommend using <a href="https://en.wikipedia.org/wiki/VeraCrypt">Veracrypt.</a>
+
+![Veracrypt]({{ site.url }}/public/images/2017/veracrypt.png)
+
+
+
+I would like to end this guide on explaining what this guide protects from and doesn’t protect from. It protects you when you visit websites on the internet, since even if the website is infected it will not be able to infect your machine. It protects you from data loss through theft, it protects you when you receive malicious files in the emails, it protects you from websites spying on you.
+
+It doesn’t protect you from APT, NSA, someone who saw your password and has access to your machine when you are not present, 0day exploits, if your machine was already infected, bad practices.
+
+[1] In this guide I am not mentioning the threat agent for a number of reasons. For the most users who will be using this guide the threat will likely be coming from random viruses and hackers of a medium skill. It also does not cover a number of things such as compiling your own kernel; securing machine from RAM attacks, Evil maid attack etc since those are not often used in the wild. This guide was not written to secure your machine from APT actors, organised criminal groups and state actors.
+[2] You can reset the BIOS passwords in some scenarios: <a href="http://www.computerhope.com/issues/ch000235.htm">http://www.computerhope.com/issues/ch000235.htm</a>
+[3] An attacker can still gain higher level rights from working under non-sudo user.<a href="https://en.wikipedia.org/wiki/Privilege_escalation">https://en.wikipedia.org/wiki/Privilege_escalation</a>. Also if you are running Wine you can catch viruses written for Windows.
+[4] This text about ufw was taken from DO tutorial: <a href="https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server#conclusion">https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server#conclusion</a>
+[5] <a href="https://heimdalsecurity.com/blog/javascript-malware-explained/">https://heimdalsecurity.com/blog/javascript-malware-explained/</a>
+[6] There are exceptions and there were some cases of exploits escaping from VM. Those are very rare, technically compand not used in the wild, since that drops their value. I would not expect an average user to get pwned by a 0day exploit, allowing to escape a VM environment.
+
+The material and information contained in this guide is for educational purposes only. You should not rely upon the material or information provided here as a basis for making any business, legal or any other decisions. I make no representations or warranties of any kind, express or implied about the completeness, accuracy, reliability, suitability or availability with respect to the websites or the information, products, services or related graphics contained in this guide for any purpose. Any reliance you place on such material is therefore strictly at your own risk. I take no responsibility for issues caused by this project or misuse of information given.
