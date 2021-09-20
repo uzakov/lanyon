@@ -52,7 +52,7 @@ To get “chat_id”, you need to first send curl https://api.telegram.org/bot<B
 
 After you get chat_id you can start messaging :) Please note, “chat_id” can be a negative value
 
-curl "https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=<CHAT_ID>&text=<YOUR_TEXT"
+curl "https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=<CHAT_ID>&text=<YOUR_TEXT>"
 
 ### Newly registered domains, squatting, homograph attacks monitoring
 
@@ -71,14 +71,17 @@ https://github.com/atenreiro/opensquat
 10. Integration with VirusTotal
 11. Integration with Quad9 DNS service
 
-#### Advantages and disadvantages of this setup
+### Advantages and disadvantages of this setup
 
 What most commercial companies do is 80% of what you see here while pricing goes from 7-8k per year up to 50k per year. It’s worth noting that often that prices include X number of takedowns per month.
 The setup explained above does not take into account things like ML, the amount of engineering effort required to build such a solution and also maintain it. Its up to the reader to decide whether its worth building this yourself or buying a solution.
 
 Having read this you might be wondering how this all fits together. Well this is a task for the reader to combine everything mentioned above into one.
+
 Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime - Anne Isabella Thackeray Ritchie
+
 Give a man an 0day and he'll have access for a day, teach a man to phish and he'll have access for life. - grugq
+
 Thank you for reading and have a good day!
 
 
