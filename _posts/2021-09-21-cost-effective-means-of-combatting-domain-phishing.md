@@ -3,10 +3,6 @@ layout: post
 title: Cost-effective means of combating domain phishing.
 ---
 
-<div class="message">
-  Early draft
-</div>
-
 If you ever needed a solution to find and monitor phishing domains related to your company but didn’t have a budget (or didn’t want to spend too much money) for a full scale solution – you are in the right place.
 The goal of this post is to talk about combating phishing domains, what actionable and measurable steps you can take, advantages and disadvantages of this setup.
 
@@ -17,7 +13,7 @@ The goal of this post is to talk about combating phishing domains, what actionab
 3. Checking new domains bought and sold
 
 ### Certificate monitoring
-Whenever a new certificate gets requested and issued, the Certificate Authority (CA) records information about it the public log. More information about certificate transparency can be found here:[https://certificate.transparency.dev/howctworks/](https://certificate.transparency.dev/howctworks/)
+Whenever a new certificate gets requested and issued, the Certificate Authority (CA) records information about it to the public log. More information about certificate transparency can be found here:[https://certificate.transparency.dev/howctworks/](https://certificate.transparency.dev/howctworks/)
 
 What this setup does is monitoring for certificates issued for our domain but also for lookalike domains or certain keywords in domains. For example, if our domain is example.com we will monitor for certificates issued to example-sales.com, examples.com, testexample.com etc
 
@@ -28,6 +24,7 @@ Example certificate logged [https://crt.sh/?id=5112823461](https://crt.sh/?id=51
 While you can build a solution for this yourself, you can also look at open source solutions, for example, [CertStreamMonitor](https://github.com/AssuranceMaladieSec/CertStreamMonitor)
 
 CertStreamMonitor can monitor certificates generated for specific domain strings and associated, store data into sqlite3 database, alert you when sites come online.
+![Certificate Transparency]({{ site.url }}/public/images/2021/CT.gif)
 
 ### Notifications
 
@@ -53,6 +50,9 @@ After you get *chat_id* you can start messaging :) Please note, *chat_id* can be
 {% highlight js %} curl "https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=<CHAT_ID>&text=<YOUR_TEXT>" {% endhighlight %}
 
 ### Newly registered domains, squatting, homograph attacks monitoring
+Often malicious actors register domains that are similar to your company domain but wouldn't necessarily be caught by Certificate Transparency log monitoring.
+
+To combat this we can use [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) to find similar enough domain names and watch for those as well, by monitoring newly registered domains, performing DNS requests. openSquat project can help with that and much more.
 
 [openSquat](https://github.com/atenreiro/opensquat) is an opensource Intelligence (OSINT) security tool to identify cybersquatting threats to specific companies or domains, such as:
 
