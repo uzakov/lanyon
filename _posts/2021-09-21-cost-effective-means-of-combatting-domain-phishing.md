@@ -74,7 +74,7 @@ To combat this we can use [Levenshtein distance](https://en.wikipedia.org/wiki/L
 
 Most commercial offerings are comprised of 80% of what this post covers, with price ranges starting at $7k per year for basic, and upwards of $50k for comprehensive monitoring, that sometimes includes certain number of takedowns per month.
 
-The setup explained above does not take into account things like ML, the amount of engineering effort required to build and maintain such a solution and amount of time spent requesting domain takedowns. It's up to the reader to decide whether it's worth building this yourself or buying a solution.
+The setup explained above does not take into account things like ML, the amount of engineering effort required to build and maintain such a solution and amount of time spent requesting domain takedowns and other helpful tools like [sherlock](https://github.com/sherlock-project/sherlock). It's up to the reader to decide whether it's worth building this yourself or buying a solution.
 
 
 Having read this you might be wondering how this all fits together. Well this is a task for the reader to combine everything mentioned above into one.
