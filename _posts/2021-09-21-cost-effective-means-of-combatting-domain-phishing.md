@@ -17,15 +17,15 @@ The goal of this post is to talk about combating phishing domains, what actionab
 3. Checking new domains bought and sold
 
 ### Certificate monitoring
-Whenever a new certificate gets requested and issued, the Certificate Authority (CA) records information about it the public log. More information about certificate transparencycan be found here:[https://certificate.transparency.dev/howctworks/](https://certificate.transparency.dev/howctworks/)
+Whenever a new certificate gets requested and issued, the Certificate Authority (CA) records information about it the public log. More information about certificate transparency can be found here:[https://certificate.transparency.dev/howctworks/](https://certificate.transparency.dev/howctworks/)
 
 What this setup does is monitoring for certificates issued for our domain but also for lookalike domains or certain keywords in domains. For example, if our domain is example.com we will monitor for certificates issued to example-sales.com, examples.com, testexample.com etc
 
-The way you do that is by watching the certificate transparency log update stream in real-time, parsing certificate information and checking for information related to the company. Diving deeper, this is performed by directly parsing certificate information from certificate transparency logs, while cross-checking for company information, such as company name, brands, intellectual property.
+The way you do that is by watching the certificate transparency log update stream in real-time, parsing certificate information and checking for information related to the company. Diving deeper, this is performed by directly parsing certificate information from certificate transparency log, while cross-checking for company information, such as company name, brands, intellectual property.
 Example certificate logged [https://crt.sh/?id=5112823461](https://crt.sh/?id=5112823461)
 
 ![Certificate]({{ site.url }}/public/images/2021/certificate.png)
-While you can build a solution for this yourself, you can also look at open source solutions, for example, CertStreamMonitor [https://github.com/AssuranceMaladieSec/CertStreamMonitor](https://github.com/AssuranceMaladieSec/CertStreamMonitor)
+While you can build a solution for this yourself, you can also look at open source solutions, for example, [CertStreamMonitor](https://github.com/AssuranceMaladieSec/CertStreamMonitor)
 
 CertStreamMonitor can monitor certificates generated for specific domain strings and associated, store data into sqlite3 database, alert you when sites come online.
 
@@ -46,11 +46,11 @@ Registering our bot:
 
 To be able to send messages we need a token and chat_id.
 
-To get “chat_id”, you need to first curl https://api.telegram.org/bot<BOT_TOKEN>/getUpdates
+To get “chat_id”, you need to first {% highlight js %} curl https://api.telegram.org/bot<BOT_TOKEN>/getUpdates {% endhighlight %}
 
-After you get chat_id you can start messaging :) Please note, “chat_id” can be a negative value
+After you get *chat_id* you can start messaging :) Please note, *chat_id* can be a negative value
 
-curl "https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=<CHAT_ID>&text=<YOUR_TEXT>"
+{% highlight js %} curl "https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=<CHAT_ID>&text=<YOUR_TEXT>" {% endhighlight %}
 
 ### Newly registered domains, squatting, homograph attacks monitoring
 
