@@ -50,7 +50,7 @@ After you get *chat_id* you can start messaging :) Please note, *chat_id* can be
 {% highlight js %} curl "https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=<CHAT_ID>&text=<YOUR_TEXT>" {% endhighlight %}
 
 ### Newly registered domains, squatting, homograph attacks monitoring
-Often malicious actors register domains that are similar to your company domain but wouldn't necessarily be caught by Certificate Transparency log monitoring.
+Often malicious actors register domains that are similar to your company domain but these domains wouldn't necessarily be caught by Certificate Transparency log monitoring.
 
 To combat this we can use [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) to find similar enough domain names and watch for those as well, by monitoring newly registered domains, performing DNS requests. openSquat project can help with that and much more.
 
