@@ -3,7 +3,7 @@ layout: post
 title: Cost-effective means of combating domain phishing.
 ---
 
-If you ever needed a solution to find and monitor phishing domains related to your company but didn’t have a budget (or didn’t want to spend too much money) for a full scale solution – you are in the right place.
+If you ever needed a solution to find and monitor phishing domains related to your company, but didn’t have a budget (or didn’t want to spend too much money) for a full scale solution – you are in the right place.
 The goal of this post is to talk about combating phishing domains, what actionable and measurable steps you can take, advantages and disadvantages of this setup.
 
 ### Core functionality:
@@ -15,9 +15,9 @@ The goal of this post is to talk about combating phishing domains, what actionab
 ### Certificate monitoring
 Whenever a new certificate gets requested and issued, the Certificate Authority (CA) records information about it to the public log. More information about certificate transparency can be found here: [https://certificate.transparency.dev/howctworks/](https://certificate.transparency.dev/howctworks/)
 
-What this setup does is monitoring for certificates issued for your domain but also for lookalike domains or certain keywords in domains. For example, if the domain is example.com we will monitor for certificates issued to example-sales.com, examples.com, testexample.com etc
+What this setup does is monitors for certificates issued for your domain but also for lookalike domains or certain keywords in domains. For example, if the domain is example.com we will monitor for certificates issued to example-sales.com, examples.com, testexample.com etc
 
-The way you do that is by watching the Certificate Transparency log update stream in real-time, parsing certificate information and checking for information related to the company. Diving deeper, this is performed by directly parsing certificate information from certificate transparency log, while cross-checking for company information, such as company name, brands, intellectual property.
+The way you do that is by watching the Certificate Transparency log update stream in real-time, parsing certificate information and checking for information related to the company. Diving deeper, this is performed by directly parsing certificate information from the Certificate Transparency log, while cross-checking for company information, such as company name, brands, intellectual property.
 Example certificate logged [https://crt.sh/?id=5112823461](https://crt.sh/?id=5112823461)
 
 ![Certificate]({{ site.url }}/public/images/2021/certificate.png)
@@ -74,7 +74,7 @@ To combat this we can use [Levenshtein distance](https://en.wikipedia.org/wiki/L
 
 Most commercial offerings are comprised of 80% of what this post covers, with price ranges starting at $7k per year for basic, and upwards of $50k for comprehensive monitoring, that sometimes includes certain number of takedowns per month.
 
-The setup explained above does not take into account things like ML, the amount of engineering effort required to build and maintain such solution. It's up to the reader to decide whether it's worth building this yourself or buying a solution.
+The setup explained above does not take into account things like ML, the amount of engineering effort required to build and maintain such a solution and amount of time spent requesting domain takedowns. It's up to the reader to decide whether it's worth building this yourself or buying a solution.
 
 
 Having read this you might be wondering how this all fits together. Well this is a task for the reader to combine everything mentioned above into one.
