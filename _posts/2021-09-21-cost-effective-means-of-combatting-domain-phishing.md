@@ -35,7 +35,7 @@ There are two portable and cheap ways to enable notifications: Slack and Telegra
 
 ### Telegram
 
-Probably the easiest way to enable notifications, as the only thing required on machines is curl.[https://core.telegram.org/bots](https://core.telegram.org/bots)
+Probably the easiest way to enable notifications, as the only thing required on machines is curl. For more information about Telegram bots: [https://core.telegram.org/bots](https://core.telegram.org/bots)
 
 Registering our bot:
 
@@ -72,21 +72,19 @@ After you get *chat_id* you can start messaging :) Please note, *chat_id* can be
 
 Most commercial offerings are comprised of 80% of what this post covers, with price ranges starting at $7k per year for basic, and upwards of $50k for comprehensive monitoring, that sometimes includes certain number of takedowns per month.
 
-The setup explained above does not take into account things like ML, the amount of engineering effort required to build such a solution and also maintain it. Its up to the reader to decide whether its worth building this yourself or buying a solution.
+The setup explained above does not take into account things like ML, the amount of engineering effort required to build and maintain such solution. It's up to the reader to decide whether it's worth building this yourself or buying a solution.
 
 
 Having read this you might be wondering how this all fits together. Well this is a task for the reader to combine everything mentioned above into one.
 
-Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime - Anne Isabella Thackeray Ritchie
+> Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime - Anne Isabella Thackeray Ritchie
 
-Give a man an 0day and he'll have access for a day, teach a man to phish and he'll have access for life. - grugq
+> Give a man an 0day and he'll have access for a day, teach a man to phish and he'll have access for life. - grugq
 
 Thank you for reading and have a good day!
 
 
 Further reading:
-[https://www.ncsc.gov.uk/guidance/phishing](https://www.ncsc.gov.uk/guidance/phishing)
-
-[https://www.keepnetlabs.com/antiphishing-tools-and-phishing-protection-software-phishing-attacks-with-legitimate-urls/](https://www.keepnetlabs.com/antiphishing-tools-and-phishing-protection-software-phishing-attacks-with-legitimate-urls/)
-
-[https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/spoofing-and-phishing](https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/spoofing-and-phishing)
+* [https://www.ncsc.gov.uk/guidance/phishing](https://www.ncsc.gov.uk/guidance/phishing)
+* [https://www.keepnetlabs.com/antiphishing-tools-and-phishing-protection-software-phishing-attacks-with-legitimate-urls/](https://www.keepnetlabs.com/antiphishing-tools-and-phishing-protection-software-phishing-attacks-with-legitimate-urls/)
+* [https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/spoofing-and-phishing](https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/spoofing-and-phishing)
