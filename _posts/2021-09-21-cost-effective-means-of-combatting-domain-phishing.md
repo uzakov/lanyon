@@ -72,7 +72,7 @@ To combat this we can use [Levenshtein distance](https://en.wikipedia.org/wiki/L
 
 ### Advantages and disadvantages of this setup
 
-Most commercial offerings are comprised of 80% of what this post covers, with price ranges starting at $7k per year for basic, and upwards of $50k for comprehensive monitoring, that sometimes includes certain number of takedowns per month. The advantage of the setup described above is that it is fast to build, does not cost anything/much, can deliver value from the very beginning and covers most of the use cases manjority of companies face.
+Most commercial offerings are comprised of 80% of what this post covers, with price ranges starting at $7k per year for basic, and upwards of $50k for comprehensive monitoring, that sometimes includes certain number of takedowns per month. The advantage of the setup described above is that it is fast to build, does not cost anything/much, can deliver value from the very beginning and covers most of the use cases majority of companies face.
 
 The setup explained above does not take into account things like ML, the amount of engineering effort required to build and maintain such a solution, amount of time spent requesting domain takedowns and other ways and tools to discover phishing domains like [sherlock](https://github.com/sherlock-project/sherlock). It's up to the reader to decide whether it's worth building this yourself or buying a solution.
 
