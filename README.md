@@ -8,3 +8,5 @@ Want to add a new lists?
 
 1. Edit config file and add a new collections
 2. Create a new folder
+
+T
