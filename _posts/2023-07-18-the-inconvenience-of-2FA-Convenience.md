@@ -141,32 +141,30 @@ References:
 
 [5] https://www.theguardian.com/money/2012/jan/20/phone-snatchers-iphones-thieves-bikes
 
-[6] https://www.theguardian.com/technology/2022/may/08/crypto-muggings-thieves-in-london-target-digital-investors-by-taking-phones
+[6] [https://www.theguardian.com/technology/2022/may/08/crypto-muggings-thieves-in-london-target-digital-investors-by-taking-phones](https://www.theguardian.com/technology/2022/may/08/crypto-muggings-thieves-in-london-target-digital-investors-by-taking-phones)
 
-[7] https://calpaterson.com/bicycle-threat-model.html
+[7] [https://calpaterson.com/bicycle-threat-model.html](https://calpaterson.com/bicycle-threat-model.html)
 
-[8] https://www.standard.co.uk/news/crime/thief-s-trick-to-steal-diner-s-phone-revealed-by-cctv-as-police-warn-over-spate-of-thefts-in-city-10163937.html
+[8] [https://www.standard.co.uk/news/crime/thief-s-trick-to-steal-diner-s-phone-revealed-by-cctv-as-police-warn-over-spate-of-thefts-in-city-10163937.html](https://www.standard.co.uk/news/crime/thief-s-trick-to-steal-diner-s-phone-revealed-by-cctv-as-police-warn-over-spate-of-thefts-in-city-10163937.html)
 
 [9] [https://pi-hole.net](https://pi-hole.net/)
 
-[10] https://nextdns.io/
+[10] [https://nextdns.io](https://nextdns.io/)
 
-[11] https://www.ic3.gov/Media/Y2022/PSA221221
+[11] [https://www.ic3.gov/Media/Y2022/PSA221221](https://www.ic3.gov/Media/Y2022/PSA221221)
 
-[12] https://news.ycombinator.com/item?id=29742970
+[12] [https://news.ycombinator.com/item?id=29742970](https://news.ycombinator.com/item?id=29742970)
 
-[14] https://en.wikipedia.org/wiki/One-time_pad
+[14] [https://en.wikipedia.org/wiki/One-time_pad](https://en.wikipedia.org/wiki/One-time_pad)
 
 Further reading:
 
-https://shostack.org/resources/threat-modeling
+[https://shostack.org/resources/threat-modeling](https://shostack.org/resources/threat-modeling)
 
-https://owasp.org/www-community/Threat_Modeling
+[https://owasp.org/www-community/Threat_Modeling](https://owasp.org/www-community/Threat_Modeling)
 
-https://news.ycombinator.com/item?id=36712497
+[https://news.ycombinator.com/item?id=36712497](https://news.ycombinator.com/item?id=36712497)
 
-https://news.ycombinator.com/item?id=35801392
+[https://news.ycombinator.com/item?id=35801392](https://news.ycombinator.com/item?id=35801392)
 
-https://news.ycombinator.com/item?id=21962424
-
-  Special thanks to: Mike, Abz, Ben for providing feedback on this article.
+[https://news.ycombinator.com/item?id=21962424](https://news.ycombinator.com/item?id=21962424)
