@@ -28,11 +28,14 @@ Thieves used to primarily target phones to resell their part, but times have cha
 Consider this: a thief who stole your unlocked phone (we will discuss this in details later) likely has access to Google Auth app, your SIM number and your passwords, that are synced in the browser. This is more than enough to take over your online accounts, drain your crypto etc
 
 **Threat modeling - IRL style**
+
 I will start this section by sharing what prompted me to write this article. Recently, I traveled to Washington, DC, and on the second day of travel, I dropped my phone. Fortunately, I was already checked into the hotel. Unfortunately, I cracked my phone screen. This is where the tale of the Threat Modeling article begins. For anyone who is not familiar with or intimidated by the term "Threat Modeling," I’ve provided links at the bottom of this article explaining what it’s.
 
 Threat modeling is likely something you’ve already done, even if you are not aware of this specific terminology. Simply put, Threat Modeling is a process of understanding what can go wrong and what you can do about it. [This is an oversimplified explanation.]
 
 ![Random pic from the trip]({{ site.url }}/public/images/2023/random_picture.jpg)
+*Random pic from the web*
+
 Scenarios:
 
 1) I could use a backup phone/buy a new phone and re-login to important services/apps
@@ -92,7 +95,7 @@ Malwareena Jones can be secured against by:
 Bandit Bob can be secured against by:
 
 - Having a 2FA app on a device stored in a secure location, like home, or having a second, locked phone that you carry with you but don't use in public. Even if this phone is snatched or stolen from you, the phone is locked, so it's less likely a thief is able to extract keys and passwords.
-- Having a separate user profile on your phone. https://source.android.com/docs/devices/admin/multi-user
+- Having a separate user profile on your phone. [https://source.android.com/docs/devices/admin/multi-user](https://source.android.com/docs/devices/admin/multi-user)
 - When you need to use your phone in public, check your surroundings.
 - Don't leave your phone on the table in public spaces.
 
@@ -128,10 +131,10 @@ Thankfully, my colleague Pavan helped me (a big thanks to him) and took me to Be
 
 There are several new developments that are gaining tractio that will significantly alter how many of us organize our two-factor authentication (2FA) setups. These include Passkeys, WebAuthn, as well as older measures like hardware keys such as Yubikey. However, as there are already great articles covering those, they will not be covered in this blog post. Instead, they will be included in the further reading section below.
 
-This article is heavily inspired by https://calpaterson.com/bicycle-threat-model.html. Check it out for a fantastic read!
+This article is heavily inspired by [https://calpaterson.com/bicycle-threat-model.html](https://calpaterson.com/bicycle-threat-model.html). Check it out for a fantastic read!
 References:
 
-[1] https://www.bu.edu/tech/support/information-security/why-use-2fa/
+[1] [https://www.bu.edu/tech/support/information-security/why-use-2fa/](https://www.bu.edu/tech/support/information-security/why-use-2fa/)
 
 [2] https://www.zdnet.com/article/microsoft-using-multi-factor-authentication-blocks-99-9-of-account-hacks/
 
