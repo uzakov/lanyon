@@ -129,20 +129,20 @@ Option 2 ended up being impossible, as one of the nearby phone screen repair ser
 
 Thankfully, my colleague Pavan helped me (a big thanks to him) and took me to BestBuy, where I bought a temporary phone. However, after getting the new phone, I was presented with an issue: my 2FA device is stored in a secure location, which I don't have access to, nor do I have access to my password manager. Thankfully, my 2FA setup allowed for this scenario. Without going into too much detail, using a one-time pad [14], my laptop, secure line and an authorized/trusted person, I was able to regain access to my accounts. Having a support network, such as a collegue or trusted individual can be a valuable factor when doing TM.
 
-There are several new developments that are gaining tractio that will significantly alter how many of us organize our two-factor authentication (2FA) setups. These include Passkeys, WebAuthn, as well as older measures like hardware keys such as Yubikey. However, as there are already great articles covering those, they will not be covered in this blog post. Instead, they will be included in the further reading section below.
+There are several new developments that are gaining traction that will significantly alter how many of us organize our two-factor authentication (2FA) setups. These include Passkeys, WebAuthn, as well as older measures like hardware keys such as Yubikey. However, as there are already great articles covering those, they will not be covered in this blog post. Instead, they will be included in the further reading section below.
 
 This article is heavily inspired by [https://calpaterson.com/bicycle-threat-model.html](https://calpaterson.com/bicycle-threat-model.html). Check it out for a fantastic read!
 References:
 
 [1] [https://www.bu.edu/tech/support/information-security/why-use-2fa/](https://www.bu.edu/tech/support/information-security/why-use-2fa/)
 
-[2] https://www.zdnet.com/article/microsoft-using-multi-factor-authentication-blocks-99-9-of-account-hacks/
+[2] [https://www.zdnet.com/article/microsoft-using-multi-factor-authentication-blocks-99-9-of-account-hacks/](https://www.zdnet.com/article/microsoft-using-multi-factor-authentication-blocks-99-9-of-account-hacks/)
 
-[3] https://www.infosecurity-magazine.com/news/tech-execs-mfa-prevent-90-of/
+[3] [https://www.infosecurity-magazine.com/news/tech-execs-mfa-prevent-90-of/](https://www.infosecurity-magazine.com/news/tech-execs-mfa-prevent-90-of/)
 
-[4] https://www.bbc.com/news/uk-england-london-65105199
+[4] [https://www.bbc.com/news/uk-england-london-65105199](https://www.bbc.com/news/uk-england-london-65105199)
 
-[5] https://www.theguardian.com/money/2012/jan/20/phone-snatchers-iphones-thieves-bikes
+[5] [https://www.theguardian.com/money/2012/jan/20/phone-snatchers-iphones-thieves-bikes](https://www.theguardian.com/money/2012/jan/20/phone-snatchers-iphones-thieves-bikes)
 
 [6] [https://www.theguardian.com/technology/2022/may/08/crypto-muggings-thieves-in-london-target-digital-investors-by-taking-phones](https://www.theguardian.com/technology/2022/may/08/crypto-muggings-thieves-in-london-target-digital-investors-by-taking-phones)
 
