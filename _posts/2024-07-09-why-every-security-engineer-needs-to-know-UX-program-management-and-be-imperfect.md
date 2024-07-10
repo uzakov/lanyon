@@ -11,6 +11,7 @@ In the security field, while technical expertise remains paramount, it’s cruci
 
 
 Stepping back and looking more generically, there are 3 things I've seen that differentiate many good security engineers from bad: knowledge of UX, project management and admitting when they are wrong. Delivering good user experience, understanding the customer and providing a solid product often is the 10x multiplier that many people strive for, but not always get 
+
 [https://www.marclittlemore.com/be-a-force-multiplier/ ](https://www.marclittlemore.com/be-a-force-multiplier/ )
 ## **UX**
 
