@@ -7,10 +7,11 @@ In the past decade, the landscape of technical roles has transformed dramaticall
 
 In the security field, while technical expertise remains paramount, it’s crucial to balance this with project management skills and a deep understanding of user and client needs. Your colleagues are your internal clients, and being able to manage projects efficiently and empathize with user requirements can be as important as keeping up with the latest security trends. Often having “perfect technical solution” is not what is needed nor required for a company.
 
-**Hint**: Maybe you don’t need Kubernetes https://endler.dev/2019/maybe-you-dont-need-kubernetes/ 
+**Hint**: Maybe you don’t need Kubernetes [https://endler.dev/2019/maybe-you-dont-need-kubernetes/ ](https://endler.dev/2019/maybe-you-dont-need-kubernetes/ )
 
-Stepping back and looking more generically, there are 3 things I've seen that differentiate many good security engineers from bad: knowledge of UX, project management and admitting when they are wrong. Delivering good user experience, understanding the customer and providing a solid product often is the 10x multiplier that many people strive for, but not always get (https://www.marclittlemore.com/be-a-force-multiplier/)
 
+Stepping back and looking more generically, there are 3 things I've seen that differentiate many good security engineers from bad: knowledge of UX, project management and admitting when they are wrong. Delivering good user experience, understanding the customer and providing a solid product often is the 10x multiplier that many people strive for, but not always get 
+[https://www.marclittlemore.com/be-a-force-multiplier/ ](https://www.marclittlemore.com/be-a-force-multiplier/ )
 ## **UX**
 
 **User experience** (UX) design is the process design teams use to create products that provide meaningful and relevant experiences to users. 
